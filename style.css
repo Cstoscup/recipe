@@ -1,0 +1,157 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #b8bab9;
+    padding: 30px;
+}
+
+header {
+    display: flex;
+    justify-content: start;
+    gap: 30px;
+    background-color: #fffffb;
+    padding: 15px 30px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+img {
+    box-shadow: 3px 3px 10px rgb(187, 187, 187);
+    display: block;
+    margin: 0 auto;
+}
+
+section {
+    background-color: #fffffb;
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin: 15px 0px;
+    box-shadow: 3px 3px 10px rgb(187, 187, 187);
+}
+
+h1 {
+    text-align: center;
+    margin: 0 0 30px 0;
+    font-size: 30px;
+}
+
+h2 {
+    margin: 0;
+}
+
+h3 {
+    text-align: center;
+}
+
+.recipe-photo {
+    height: 250px;
+    width: 400px;
+    object-fit: cover;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+footer {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+}
+
+.photos {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    flex-flow: row wrap;
+}
+
+.link-home {
+    flex-grow: 1
+}
+
+.active {
+    text-decoration: underline;
+}
+
+.contact-links {
+    border: 10px solid #fffffb;
+    border-radius: 50%;
+    outline: 1px solid black;
+    transition: all 150ms ease-in-out;
+    background-color: #fffffb;
+}
+
+.contact-links:hover {
+    transform: scale(1.1);
+}
+
+.email {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.homepage-photos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: column;
+    gap: 30px;
+}
+
+.pbj {
+    background-image: url(https://storcpdkenticomedia.blob.core.windows.net/media/recipemanagementsystem/media/recipe-media-files/recipes/retail/desktopimages/2018_grilled-peanut-butter-and-jelly_20336_600x600.jpg?ext=.jpg);
+}
+
+.cereal {
+    background-image: url(https://www.nestle-cereals.com/mt/sites/g/files/fawtmp396/files/styles/scale_768_webp/public/d7/article_cereal_story_2048x1152_01.jpg.webp?itok=fBgqItNW);
+
+}
+
+.mac {
+    background-image: url(https://hips.hearstapps.com/amv-prod-tpw.s3.amazonaws.com/wp-content/uploads/2009/04/3420436668_97d3fc53b1_o.jpg);
+    background-size: cover;
+}
+
+.recipe-link {
+    width: 500px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 4px;   
+}
+
+.recipe-link a {
+    font-size: 30px;
+    text-align: center;
+    display: block;
+    line-height: 300px;
+    color: transparent;
+    text-decoration: none; 
+    background: rgb(0, 0, 0, 0);
+    transition: all 200ms ease-in-out;
+}
+
+.recipe-link a:hover {
+    color: white;
+    background: rgb(0, 0, 0, .5);
+}
+
+@media (max-width: 650px) {
+    .homepage-photo {
+        width: 100%;
+    }
+}
